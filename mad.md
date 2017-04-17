@@ -9,12 +9,9 @@
 
 	Options:
 
-	-U, --update-self  update mad(1) itself
-	-u, --update       update remote mad-pages
-	-v, --version      output mad version
+	-U, --update       install and update remote man page
+	-u, --update-self  update self 
 	-h, --help         output this help information
-	-l, --list         list mad-pages
-	-                  read from stdin
 
 ## Installation
 
@@ -30,14 +27,14 @@
 
 	Use the __MAD_PATH__ environment variable to control
 	where `mad(1)` will look for a manual page.
-	The ".md" extension may be omitted.
+	The ".md" extension **may be omitted**.
 
 	For example:
 
-	MAD_PATH="/usr/share/mad:share/mad"
+	MAD_PATH=".:$HOME/.mad/share"
 
 	The following paths will always be searched:
 
 	- .
-	- /usr/local/share/mad
-	- /usr/share/mad
+	- ~/.mad/share
+
