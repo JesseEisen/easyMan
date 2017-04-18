@@ -11,6 +11,7 @@
 
 	-U, --update       install and update remote man page
 	-u, --update-self  update self 
+	-l, --list         list all the man pages by mad
 	-h, --help         output this help information
 
 ## Installation
