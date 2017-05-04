@@ -44,5 +44,11 @@
     git subtree push --prefix=<子目录名> <远程分支名> 分支
 
 
+### rev-parse
+
+  用来获取一些基本的参数，比如当前目录的地址等
+
+    git rev-parse --show-toplevel   # 获取目录地址
+    git rev-parse --show-prefix     # 获取相对目录
 
 
